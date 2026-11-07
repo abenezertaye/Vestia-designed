@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'Figtree';
+  src: url('/Fonts/Figtree/static/Figtree-Regular.ttf');
+}
+
+.nav-bar{
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: 10;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  height:6rem;
+  background: transparent;
+}
+
+.title{
+  font: 600 1.4rem "Figtree", Arial, sans-serif;
+}
+
+.nav-bar .container{
+  /* background: linear-gradient(120deg, white,black, white); */
+  background: rgb(245 245 245 / 70%);
+  backdrop-filter: blur(8px);
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:90%;
+  height:70%;
+  border-radius: 4rem;
+  color: #111;
+  padding:2rem;
+}
+
+.navbar__links{
+  display: flex;
+  align-items: center;
+  gap:1.5rem;
+  list-style: none;
+  font: 400 1rem "Figtree", Arial, sans-serif;
+}
+
+.navbar__links li{
+  cursor:pointer;
+}
+
+.shop-now-btn{
+  padding: 0.7rem 1.5rem;
+  border:0;
+  border-radius: 999px;
+  background:#7962ff;
+  color:white;
+  font: 600 1rem "Figtree", Arial, sans-serif;
+  cursor: pointer;
+  transition: background-color 180ms ease, transform 180ms ease;
+}

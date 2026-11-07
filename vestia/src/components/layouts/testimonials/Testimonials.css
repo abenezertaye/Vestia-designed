@@ -1,0 +1,13 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40vh;
+  width: 100%;
+}
+
+.boxes {
+  width: 15rem;
+  height: 15rem;
+  box-shadow: 0px 0px 10px;
+}
