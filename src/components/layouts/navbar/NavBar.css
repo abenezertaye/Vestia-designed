@@ -4,7 +4,7 @@
 }
 
 .nav-bar{
-  position: absolute;
+  position: fixed;
   top:0;
   left:0;
   z-index: 10;
@@ -22,8 +22,14 @@
 
 .nav-bar .container{
   /* background: linear-gradient(120deg, white,black, white); */
-  background: rgb(245 245 245 / 70%);
-  backdrop-filter: blur(8px);
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4rem;
+
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
 }
 
 .container{
